@@ -1,0 +1,60 @@
+<!--pages/my/my.wxml-->
+<view class='my_top'>
+  <image class='Headportrait'src="{{Headportrait}}"></image>
+   <text>{{name}}</text>
+</view>
+<view class='Order' catchtap='goto' data-numb='0'>
+ <text>查看订单</text>
+  <view class='all_box'>
+    
+    <text class='all'>
+      查看全部
+    </text>
+    <image src='https://yy.kpzs.com/upload/image/1908141201217543.png'></image>
+   
+  </view>
+    
+</view>
+<view class='payment_box'>
+  <view class='payment'  catchtap='goto'  data-numb='1'>
+    <image src='../images/dfk.png' ></image>
+    <text>待付款</text>
+  </view>
+   <view class='payment' catchtap='goto'  data-numb='2'>
+    <image src='../images/dfk.png'></image>
+    <text>待发货</text>
+  </view>
+   <view class='payment' catchtap='goto'  data-numb='3'>
+    <image src='../images/dfk.png'></image>
+    <text>待收获</text>
+  </view>
+   <view class='payment' catchtap='goto'  data-numb='4'>
+    <image src='../images/dfk.png' ></image>
+    <text>待评价</text>
+  </view>
+</view>
+<view class='box'></view>
+<view class='my' catchtap='goto1'>
+  <text>我的收藏</text>
+  <image src='https://yy.kpzs.com/upload/image/1908141201217543.png'></image>
+</view>
+<view class='my' catchtap='goto2'>
+  <text>优惠卷</text>
+  <image src='https://yy.kpzs.com/upload/image/1908141201217543.png'></image>
+</view>
+<view class='my' catchtap='goto3'>
+  <text>地址管理</text>
+  <image src='https://yy.kpzs.com/upload/image/1908141201217543.png'></image>
+</view>
+<view class='my' bindlongtap='mobilphone'>
+  <text data-name='绑定手机'>{{ }}</text>
+  <image src='https://yy.kpzs.com/upload/image/1908141201217543.png'></image>
+</view>
+<view class='my'>
+  <text>意见反馈</text>
+  <image src='https://yy.kpzs.com/upload/image/1908141201217543.png'></image>
+</view>
+<view class='my'>
+  <text>版本号</text>
+  <text class='number'>v3.2.0</text>
+</view>

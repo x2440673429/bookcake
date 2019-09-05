@@ -1,0 +1,58 @@
+/* pages/map/map.wxss */
+.city_page{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.city_page .city_box{
+  width: 100%;
+}
+.city_page .city_box .city_name{
+  font-size: 28rpx;
+  text-align: center;
+  padding: 15rpx 0;
+  border-bottom: 1rpx solid rgb(240,240,240);
+}
+.city_page .city_box .hotcity{
+  display: flex;
+  flex-wrap: wrap;
+}
+.city_page .city_box  .city{
+  width: 25%;
+  border-right: 1rpx solid rgb(240,240,240);
+  border-bottom: 1rpx solid rgb(240,240,240);
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 60rpx;
+  font-size: 25rpx;
+}
+.startcity_box{
+  width: 100%;
+  overflow: hidden;
+  border-top: 1rpx solid rgb(240,240,240);
+}
+.startcity_box .startcity{
+  width: 25%;
+  border-right: 1rpx solid rgb(240,240,240);
+  border-bottom: 1rpx solid rgb(240,240,240);
+  float: left;
+  text-align: center;
+  line-height: 50rpx;
+  box-sizing: border-box;
+}
+.startcity_box .allcityname{
+  border-right: 1rpx solid rgb(240,240,240);
+  border-bottom: 1rpx solid rgb(240,240,240);
+  width: 25%;
+  text-align: center;
+  line-height: 50rpx;
+  box-sizing: border-box;
+  float: left;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}

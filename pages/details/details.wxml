@@ -1,0 +1,101 @@
+<!--pages/details/details.wxml-->
+ <view class='imgs'>
+    <swiper style='height:700rpx' indicator-dots='true' indicator-active-color='rgba(250, 250, 250, 1)' autoplay='false' duration='1000' circular='true'>
+      <swiper-item>
+        <image src='https://yy.kpzs.com/upload/image/1908141206031322.png'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class='introduce'>
+    <text class='name'>{{name}}</text>
+    <text class='PersonnelDistribution'>专人配送</text>
+    <view class='Story'>一场美丽的邂逅，一次踏入仙境。彼此拥抱的古典之爱</view>
+    <view class='Price'>￥<text class='money'>399</text></view>
+  </view>
+ <view class='gejuanbox'></view>
+ <view class='Choice'>
+    <text class='Specifications'>规格</text>
+    <text class='Size'>已选择14*14cm</text>
+    <image src='https://yy.kpzs.com/upload/image/1908141201217543.png'></image>
+ </view>
+ <view class='gejuanbox'></view>
+ <view class='pp'>
+  <image src='https://yy.kpzs.com/upload/image/1908141202116714.png' class='hteimg'></image>
+  <view class='name_box'>
+    <text class='hte'>黑天鹅</text>
+    <text class='htejs'>高贵口味与艺术气质的复兴！</text>
+  </view>
+  <view class='Costperformance'>
+    <view class='Cost'>
+      <text>口味口感</text>
+      <view class='shifenbox'><view class='boxinnub'>10</view></view>  
+    </view>
+    <view class='Cost'>
+      <text>实物外观</text>
+      <view class='shifenbox'><view class='boxinnub'>10</view></view>  
+    </view>
+    <view class='Cost'>
+      <text>服务质量</text>
+      <view class='shifenbox'><view class='boxinnub'>10</view></view>  
+    </view>
+    <view class='Cost'>
+      <text>配送效率</text>
+      <view class='shifenbox'><view class='boxinnub'>10</view></view>  
+    </view>
+  </view>
+  <view class='evaluate_box'>
+    <text class='evaluate'>评价</text>
+    <text class='score'>综合评分 <text class='number'>5</text></text>
+    <image src='https://yy.kpzs.com/upload/image/1908141201217543.png' class='next'></image>
+    <text class='allevaluate'>查看全部2500条评论</text>
+  </view>
+ </view>
+  <view class='comment_box'>
+    <view class='comment_information'>
+      <image src='https://yy.kpzs.com/upload/image/1908141202256441.png'></image>
+      <text>185*****107</text>
+    </view>
+    <view class='comment_content'>
+      <view>服务非常好，蛋糕外观精致，口感一级棒，大品牌就是很不错，值得选购</view>
+    </view>
+    <view class='comment_time'>2017-08-21 22:40:14</view>
+  </view>
+
+
+ <view class='IntroductionofGraphicsandTexts'>
+  <text>图文介绍</text>
+  <view>天鹅是凝聚造物主最多艺术灵感的作品也凝聚了人类最多的寄托和想象。由罗红先生淡入艺术指导的二十几款带着黑天鹅高贵气质的蛋糕作品，由几位蛋糕大师共同创作完成。罗红先生为他们创建了一个全新的品牌：黑天鹅蛋糕——她诞生在平安夜的祝福中，要让每一个纪念日都尊贵无比，让每一个生命都尊贵无比！</view>
+ </view>
+ <view class='bom_box'>
+  <view class='scandzx'>
+    <view class='scandzx_box'>
+      <image src='../images/shoucang.png'></image>
+      <text>收藏</text>
+    </view>
+  </view>
+  <view class='scandzx'>
+     <view class='scandzx_box'>
+      <image src='../images/zx.png'></image>
+      <text>咨询</text>
+    </view>
+  </view>
+  <view class='ljdg'>
+    立即订购
+  </view>
+ </view>
+ <!-- <view class=‘xuanxiang’>
+  <image></image>
+  <view class='xiangxuangmingchen'>
+    <view>{{name}}</view>
+    <view>￥399</view>
+    <view>已选择：14*14cm</view>
+  </view>
+  <view>尺寸</view>
+  <view>
+    <text>14*14cm</text>
+    <text>20*20cm</text>
+    <text>25*25cm</text>
+  </view>
+  <view>购买数量<view><text>-</text><text>1</text><text>+</text></view></view>
+  <view>立即订购</view>
+ </view> -->

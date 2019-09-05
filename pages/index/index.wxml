@@ -1,0 +1,139 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+<import src='../templace/top/top.wxml'/>
+ <view class="indexpage">
+ <template is="tem1page" data="{{...city}}"></template>
+</view> 
+<view class='index'>
+  <view class='imgs'>
+    <swiper style='height:200rpx' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+      <swiper-item>
+        <image src='http://www.maihouhua.net/themes/b2c/img2/banner1.jpg'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='http://www.maihouhua.net/themes/b2c/img2/banner2.jpg'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='http://www.maihouhua.net/themes/b2c/img2/banner3.jpg'></image>
+      </swiper-item>
+    </swiper>
+   
+  </view>
+  <image src='https://yy.kpzs.com/upload/image/1908141159140763.png' class='youhuijuan'></image>
+
+  <view class='product'>
+    <view catchtap='go'>
+      <image src='https://yy.kpzs.com/upload/image/1908141159503096.png' ></image>
+      <text>创意网红</text>
+    </view>
+    <view catchtap='go'>
+      <image src='https://yy.kpzs.com/upload/image/1908141200073328.png'></image>
+      <text>当日达</text>
+    </view>
+    <view catchtap='go'>
+      <image src='https://yy.kpzs.com/upload/image/1908141200278568.png'></image>
+      <text>热卖</text>
+    </view>
+    <view catchtap='go'>
+      <image src='https://yy.kpzs.com/upload/image/1908141200437937.png'></image>
+      <text>全部</text>
+    </view>
+  </view>
+  <image src='https://yy.kpzs.com/upload/image/1908141201048264.png' class='tuijian'></image>
+  <view class='brandbox'>
+  <text>品牌管</text>
+  <image src='https://yy.kpzs.com/upload/image/1908141201217543.png' class='go'></image>
+  <text>Brand Livrart</text>
+  </view>
+  <view class='brandlivrart'>
+    <view class='ppgl'>
+      <image src='https://yy.kpzs.com/upload/image/1908141201580688.png'></image>
+      <image src='https://yy.kpzs.com/upload/image/1908141202116714.png'></image>
+      <image src='https://yy.kpzs.com/upload/image/1908141202256441.png'></image>
+      <image src='https://yy.kpzs.com/upload/image/1908141202399251.png'></image>
+      <image src='https://yy.kpzs.com/upload/image/1908141202511758.png'></image>
+      <image src='https://yy.kpzs.com/upload/image/1908141203070417.png'></image>
+      <image src='https://yy.kpzs.com/upload/image/1908141203204174.png'></image>
+    </view>
+  </view>
+  <view class='brandbox'>
+  <text>人群推荐</text>
+  <text>Target Recommended</text>
+  </view>
+  <view class='Recommendation'>
+    <image src='https://yy.kpzs.com/upload/image/1908122136483536.png' class='left'></image>
+    <view class='right'>
+       <image src='https://yy.kpzs.com/upload/image/1908122137470106.png'></image>
+        <image src='https://yy.kpzs.com/upload/image/1908122138078396.png'></image>
+    </view>
+  </view>
+  <view class='brandbox'>
+  <text>品牌特供</text>
+  <text>Brand Supply</text>
+  </view>
+  <view class='supply'>
+    <image src='https://yy.kpzs.com/upload/image/1908141204038743.png' class='left'></image>
+    <view class='right'>
+       <image src='https://yy.kpzs.com/upload/image/1908141204130591.png'></image>
+        <image src='https://yy.kpzs.com/upload/image/1908141204221496.png'></image>
+    </view>
+  </view>
+  <view class='brandbox'>
+  <text>口味推荐</text>
+  <text>Flavor Recommended</text>
+  </view>
+  <view class='flavor'>
+    <image src='https://yy.kpzs.com/upload/image/1908141204317070.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141204442698.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141204549787.png'></image>
+  </view>
+  <view class='flavor'>
+    <image src='https://yy.kpzs.com/upload/image/1908141205060749.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141205165088.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141205243602.png'></image>
+  </view>
+  <view class='flavor flavor1'>
+    <image src='https://yy.kpzs.com/upload/image/1908141205335072.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141205438574.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141205527190.png'></image>
+  </view>
+  <view class='brandbox1'>-热卖精选-</view>
+  <view class='jingxuanbox'>
+    <view class='jingxuan' catchtap='jump'>
+      <image src='https://yy.kpzs.com/upload/image/1908141206160159.png'></image>
+      <text>黑白巧克力慕斯</text>
+      <text>21Cale</text>
+      <text class='money'>￥ 198</text>
+    </view>
+    <view class='jingxuan'catchtap='jump'>
+      <image src='https://yy.kpzs.com/upload/image/1908141206031322.png'></image>
+      <text>天使之爱（新）</text>
+      <text>黑天鹅</text>
+      <text class='money'>￥ 399</text>
+    </view>
+    <view class='jingxuan'catchtap='jump'>
+      <image src='https://yy.kpzs.com/upload/image/1908141206281805.png'></image>
+      <text>蔓越莓红丝绒</text>
+      <text>MCAKE</text>
+      <text class='money'>￥ 198</text>
+    </view>
+     <view class='jingxuan'catchtap='jump'>
+      <image src='https://yy.kpzs.com/upload/image/1908141206389742.png'></image>
+      <text>小宝贝Little Darling</text>
+      <text>BONCAKE</text>
+      <text class='money'>￥ 168</text>
+    </view>
+  </view>
+  <view class='more'>点击查看更多</view>
+</view>

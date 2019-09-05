@@ -1,0 +1,86 @@
+/* pages/my/my.wxss */
+.my_top{
+  width: 100%;
+  height: 300rpx;
+  background: rgb(255, 0, 13);
+  display: flex;
+  align-items: center;
+}
+.my_top .Headportrait{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: #ccc;
+  margin-left: 50rpx;
+}
+.my_top text{
+  margin-left: 20rpx;
+  color: #fff;
+}
+.Order {
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid rgb(233, 229, 229);
+  font-size: 25rpx;
+}
+.Order .all_box {
+  float: right;
+}
+.Order .all_box image{
+  width: 35rpx;
+  height: 35rpx;
+  display: inline-block;
+  vertical-align: -8rpx;
+  margin-left: 10rpx;
+}
+.Order .all_box .all{
+  font-size: 25rpx;
+  color: #999;
+  display: inline-block;
+  line-height:15rpx;
+
+}
+.payment_box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  margin-bottom: 30rpx;
+  margin-top: 10rpx;
+}
+.payment_box .payment{
+  width: 25%;
+  font-size: 25rpx;
+  text-align: center;
+  color: #999;
+}
+.payment_box .payment image{
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  margin: 10rpx auto;
+}
+.box{
+  width: 100%;
+  height: 15rpx;
+  background: rgb(236, 234, 234);
+}
+.my{
+  width: 100%;
+  padding:  30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  border-bottom: 1rpx solid rgb(240, 240, 240)
+}
+
+.my image{
+  width: 35rpx;
+  height: 35rpx;
+  float: right;
+}
+.my .number{
+  float: right;
+  color: #999;
+  font-size: 25rpx;
+}

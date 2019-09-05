@@ -1,0 +1,15 @@
+/* pages/Coupon/Coupon.wxss */
+.top{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1rpx solid rgb(240, 240, 240);
+  border-bottom: 1rpx solid rgb(240, 240, 240)
+}
+.top text{
+  font-size: 28rpx;
+  padding: 20rpx 10rpx;
+}
+.top .bor{
+  border-bottom: 2rpx solid red;
+}

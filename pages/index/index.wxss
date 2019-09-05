@@ -1,0 +1,259 @@
+/**index.wxss**/
+@import '../templace/top/top.wxss';
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.index{
+  width: 100%;
+  height: 100%;
+}
+/* .index .top{
+  width: 100%;
+  height: 70rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.index .top .currentlocation{
+ width: 150rpx;
+ height: 61rpx;
+ background: rgb(236, 236, 236);
+ display: inline-block;
+ margin-right: 20rpx;
+ text-align: center;
+ line-height: 61rpx;
+ color: #999999;
+ font-size: 25rpx;
+ border-radius: 5rpx;
+}
+.index .top .search{
+  width: 100%;
+  height: 60rpx;
+  border: 1rpx solid rgb(190, 190, 190);
+  display: flex;
+  border-radius: 5rpx;
+  box-sizing: border-box;
+}
+.index .top icon{
+  display: inline-block;
+  line-height:83rpx;
+  margin: 0 10rpx;
+}
+.index .top input{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 60rpx;
+  font-size: 25rpx;
+  color: #666;
+} */
+.index .imgs{
+  width: 100%;
+}
+.index .imgs swiper image{
+  width: 100%;
+  height: 200rpx;
+}
+.index .youhuijuan{
+  width: 70%;
+  height: 80rpx;
+  margin: auto;
+  display: block;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.index .product{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 30rpx;
+}
+
+.index .product view image{
+  width: 90rpx;
+  height: 90rpx;
+  display: block
+}
+.index .product view text{
+  display: block;
+  font-size: 25rpx;
+  text-align: center;
+  margin-top: 15rpx;
+}
+.index .tuijian{
+  width: 100%;
+  height: 250rpx;
+  padding: 15rpx 0;
+  background: rgb(241, 240, 240);
+}
+.index .brandbox{
+  width: 100%;
+  text-align: center;
+  margin: 20rpx 0;
+  position: relative;
+}
+.index .brandbox text{
+  display: block;
+}
+.index .brandbox text:last-child{
+  font-size: 20rpx;
+}
+.index .brandbox .go{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -20rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.brandlivrart{
+  width: 100%;
+  height: 150rpx;
+  overflow: hidden;
+}
+.index .ppgl{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.index .brandlivrart .ppgl image{
+  width:230rpx;
+  height: 150rpx;
+   -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none;
+}
+.index .brandlivrart .ppgl::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.index .Recommendation{
+  width: 100%;
+}
+.index .Recommendation .left{
+  width: 50%;
+  height: 376rpx;
+  padding: 0 5rpx 0 0 ;
+  box-sizing: border-box;
+}
+.index .Recommendation .right{
+  width: 50%;
+  height: 376rpx;
+  display: inline-block;
+}
+.index .Recommendation .right image{
+  width: 100%;
+  height: 188rpx;
+  float: left;
+}
+.index .Recommendation .right image:last-child{
+  margin-top: 3rpx;
+}
+.index .supply{
+  width: 100%;
+  border-top: 1rpx solid rgb(231, 230, 230);
+  border-bottom: 1rpx solid rgb(231, 230, 230);
+  overflow: hidden;
+}
+.index .supply .left{
+  width: 50%;
+  height: 300rpx;
+  border-right: 1rpx solid rgb(231, 230, 230);
+  box-sizing: border-box;
+  float: left;
+}
+.index .supply .right{
+  width: 50%;
+  height: 300rpx;
+  display: inline-block;
+}
+.index .supply .right image{
+  width: 100%;
+  height: 150rpx;
+  float: left;
+}
+.index .supply .right image:last-child{
+   border-top: 1rpx solid rgb(231, 230, 230);
+}
+.index .flavor{
+  width: 100%;
+  display: flex;
+  border-top: 1rpx solid rgb(231, 230, 230);
+
+}
+.index .flavor1{
+  border-bottom: 1rpx solid rgb(231, 230, 230);
+}
+.index .flavor image{
+  height:211rpx;
+  
+}
+.index .flavor image:nth-child(even){
+border-left: 1rpx solid rgb(231, 230, 230);
+border-right: 1rpx solid rgb(231, 230, 230);
+}
+.index .brandbox1{
+  text-align: center;
+  margin: 50rpx 0;
+}
+.index .jingxuanbox{
+  width: 100%;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  /* display: flex;
+  justify-content:space-between; */
+  overflow: hidden;
+}
+.index .jingxuanbox .jingxuan{
+  width: 50%;
+  float: left;
+  margin-bottom: 50rpx;
+}
+.index .jingxuanbox .jingxuan image{
+  width: 90%;
+  height:266rpx;
+  border: 1rpx solid rgb(231, 230, 230);
+  margin: auto;
+  display: block;
+  margin-bottom: 10rpx;
+}
+.index .jingxuanbox .jingxuan text{
+  display: block;
+  text-align: center;
+  font-size: 20rpx;
+  font-weight: 500;
+}
+.index .jingxuanbox .jingxuan .money{
+  color: red;
+  margin-top: 10rpx;
+}
+.index .more{
+  width: 90%;
+  box-sizing: border-box;
+  border: 1rpx solid rgb(231, 230, 230);
+  text-align: center;
+  margin: auto;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+  margin-bottom: 80rpx;
+}

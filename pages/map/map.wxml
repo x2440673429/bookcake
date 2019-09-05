@@ -1,0 +1,19 @@
+<!--pages/map/map.wxml-->
+<scroll-view class='city_page' scroll-top="{{scrolltop}}" scroll-y >
+  <view wx:for='{{list}}' wx:key='{{index}}' class='city_box'>
+    <view class='city_name'  >{{item.name}}</view>
+    <view class='hotcity'>
+      <text class='city' wx:for='{{item.hotcity}}' wx:for-item='hotcity' wx:key='id' catchtap='getname' data-name='{{hotcity.city}}'>{{hotcity.city}}</text>
+    </view>
+  </view>
+  <view wx:for='{{allcity1}}' wx:key='{{index}}' class='city_box'>
+    <view class='city_name'>{{item.name}}</view>
+    <view class='hotcity'>
+      <text class='city' wx:for='{{item.hotcity}}' wx:for-item='hotcity' wx:key='id' catchtap='jump' data-item='{{hotcity}}'>{{hotcity.city}}</text>
+    </view>
+  </view>
+  <view class='startcity_box' wx:for='{{allcity}}' wx:key='{{index}}'>
+    <view class='startcity' id='{{item.start}}'>{{item.start}}</view>
+    <text wx:for='{{item.city}}' wx:for-item='city' wx:key='id' class='allcityname' catchtap='getname' data-name='{{city.name}}'>{{city.name}}</text>
+  </view>
+</scroll-view>

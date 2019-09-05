@@ -1,0 +1,12 @@
+/* pages/AddressManagement/AddressManagement.wxss */
+.new{
+  width: 100%;
+  background: red;
+  color: #fff;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+ position: fixed;
+  bottom: 0;
+  left: 0;
+}

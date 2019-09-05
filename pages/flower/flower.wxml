@@ -1,0 +1,125 @@
+<!--pages/flower/flower.wxml-->
+<import src='../templace/top/top.wxml'/>
+ <view class="indexpage">
+ <template is="tem1page" data="{{...city}}"></template>
+</view> 
+ <view class='imgs'>
+    <swiper style='height:200rpx' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+      <swiper-item>
+        <image src='http://www.maihouhua.net/themes/b2c/img2/banner1.jpg'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='http://www.maihouhua.net/themes/b2c/img2/banner2.jpg'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='http://www.maihouhua.net/themes/b2c/img2/banner3.jpg'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class='youhuibox'>全国鲜花3小时配送，新人订花立减100元</view>
+  <view class='send' >
+    <text class='sendonly'>送爱人</text>
+    <text class='sending'>send your dear a speclal gift</text>
+    <image src='https://yy.kpzs.com/upload/image/1908141211305317.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141211427654.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141211524112.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141212036507.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141212169844.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141212270240.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141212379614.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141212479161.png'></image>
+    <view class='sendbox'>
+      <view class='sendbox_txt'>
+        <text>All ▶</text>
+        <text class='clickall'>点击查看全部</text>
+      </view>
+    </view>
+  </view>
+    <view class='send'>
+    <text class='sendonly'>送长辈</text>
+    <text class='sending'>send your family a speclal gift</text>
+    <image src='https://yy.kpzs.com/upload/image/1908141212569605.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141213084149.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141213179562.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141213265701.png'></image>
+    <image src='https://yy.kpzs.com/upload/image/1908141213352755.png'></image>
+    <view class='sendbox'>
+      <view class='sendbox_txt'>
+        <text>All ▶</text>
+        <text class='clickall'>点击查看全部</text>
+      </view>
+    </view>
+  </view>
+    <view class='send'>
+      <text class='sendonly'>送朋友</text>
+      <text class='sending'>send your friend a speclal gift</text>
+      <view class='flowerbox'>
+        <view class='floweronly'>
+          <image src='https://yy.kpzs.com/upload/image/1908141213450326.png'></image>
+          <text>混搭花束</text>
+        </view>
+        <view class='floweronly'>
+          <image src='https://yy.kpzs.com/upload/image/1908141213587497.png'></image>
+          <text>百合花束</text>
+        </view>
+        <view class='floweronly'>
+          <image src='https://yy.kpzs.com/upload/image/1908141214095783.png'></image>
+          <text>花篮送礼</text>
+        </view>
+        <view class='sendbox1'>
+          <text class='all'>All ▶</text>
+          <text>全部</text>
+        </view>
+      </view>
+  </view>
+    <view class='send'>
+    <text class='sendonly'>生活花艺</text>
+    <text class='sending'>decorate</text>
+    <view class='flowerbox'>
+      <view class='floweronly'>
+        <image src='https://yy.kpzs.com/upload/image/1908141214200638.png'></image>
+        <text>包月鲜花</text>
+      </view>
+      <view class='floweronly'>
+        <image src='https://yy.kpzs.com/upload/image/1908141214314463.png'></image>
+        <text>绿植盆栽</text>
+      </view>
+      <view class='floweronly'>
+        <image src='https://yy.kpzs.com/upload/image/1908141214429846.png'></image>
+        <text>超萌多肉</text>
+      </view>
+      <view class='sendbox1'>
+        <text class='all'>All ▶</text>
+        <text>全部</text>
+      </view>
+    </view>
+  </view>
+  <view class='gejuanbox'></view>
+  <view class='product'>
+    <text class='Popularselling'>-人气热卖-</text>
+    <view class='product_box'>
+      <image src='https://yy.kpzs.com/upload/image/1908141214541031.png'></image>
+      <text class='product_name'>心心相印</text>
+      <text class='product_engname'>spring flower</text>
+      <view class='product_money'>￥179<text class='product_money1'>￥209</text></view>
+    </view>
+    <view class='product_box'>
+      <image src='https://yy.kpzs.com/upload/image/1908141215077153.png'></image>
+      <text class='product_name'>胭脂雪</text>
+      <text class='product_engname'>心意鲜花</text>
+      <view class='product_money'>￥216<text class='product_money1'>￥268</text></view>
+    </view>
+    <view class='product_box'>
+      <image src='https://yy.kpzs.com/upload/image/1908141215175438.png'></image>
+      <text class='product_name'>心心相印</text>
+      <text class='product_engname'>spring flower</text>
+      <view class='product_money'>￥149<text class='product_money1'>￥168</text></view>
+    </view>
+    <view class='product_box'>
+      <image src='https://yy.kpzs.com/upload/image/1908141215279533.png'></image>
+      <text class='product_name'>心心相印</text>
+      <text class='product_engname'>spring flower</text>
+      <view class='product_money'>￥218<text class='product_money1'>￥238</text></view>
+    </view>
+  </view>
+  <view class='more'>点击查看更多</view>

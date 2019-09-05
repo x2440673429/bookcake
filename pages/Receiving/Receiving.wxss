@@ -1,0 +1,27 @@
+/* pages/Receiving/Receiving.wxss */
+.infobox{
+  width: 90%;
+  border-bottom: 1rpx solid rgb(240, 240, 240);
+  padding: 20rpx 0;
+  display: flex;
+  font-size: 28rpx;
+  margin: auto;
+}
+.infobox .title{
+  display: inline-block;
+  width: 30%;
+}
+.infobox image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 6rpx;
+}
+.botton{
+  width: 90%;
+  padding: 20rpx 0;
+  color: #fff;
+  background: red;
+  margin: 70rpx auto;
+  text-align: center;
+
+}

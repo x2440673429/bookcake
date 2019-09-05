@@ -1,0 +1,22 @@
+<import src='../templace/top/top.wxml'/>
+ <view class="indexpage">
+ <template is="tem1page" data="{{...city}}"></template>
+</view> 
+<view class='product'>
+  <view class='left'>
+    <text class='{{selectindex=="0"&&"xuanzhong"}}' catchtap='qiehuan' data-index='0'>人气推荐</text>
+    <text class='{{selectindex=="1"&&"xuanzhong"}}'  catchtap='qiehuan' data-index='1'>按品牌</text>
+    <text class='{{selectindex=="2"&&"xuanzhong"}}' catchtap='qiehuan' data-index='2'>按口味</text>
+    <text class='{{selectindex=="3"&&"xuanzhong"}}'  catchtap='qiehuan' data-index='3'>按人群</text>
+  </view>
+  <view   class='right'>
+    <scroll-view scroll-y style="height: 100%;width:100%"  bindscrolltolower='loadmore'  >
+      <text class='right_top'>———— 人气推荐 ————</text>
+      <view class='product-only' wx:for='{{list[selectindex]}}' wx:key="{{index}}">
+        <image src='{{item.img}}'></image>
+        <text class='name'>{{item.name}}</text>
+        <text class='money'>￥{{item.money}}</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>

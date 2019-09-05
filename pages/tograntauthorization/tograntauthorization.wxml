@@ -1,0 +1,4 @@
+<!--pages/tograntauthorization/tograntauthorization.wxml-->
+<image src='../images/shengri.png'></image>
+<view>登录前请先进行微信授权</view>
+<button open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">去授权</button>

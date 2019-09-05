@@ -1,0 +1,30 @@
+/* pages/mycollection/mycollection.wxss */
+.dgsc{
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 40rpx;
+}
+.dgsc image{
+  width: 80%;
+  height: 240rpx;
+  display: block;
+  margin: auto;
+}
+.dgsc .name{
+  widows: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.dgsc .engname{
+  font-size: 25rpx;
+  text-align: center;
+  margin: 10rpx 0;
+}
+.dgsc .money{
+  color: red;
+  text-align: center;
+}

@@ -1,0 +1,251 @@
+/* pages/details/details.wxss */
+.imgs{
+  width: 100%;
+  height: 700rpx;
+}
+.imgs swiper swiper-item image{
+  width: 100%;
+  height: 100%;
+}
+.introduce{
+  width: 100%;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+}
+.introduce .PersonnelDistribution{
+  display: inline-block;
+  font-size: 20rpx;
+  background: rgb(56, 207, 218);
+  color: #fff;
+  padding: 0 5rpx;
+  border-radius: 5rpx;
+}
+.introduce .Story{
+  font-size: 25rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+.introduce .Price{
+  color:red;
+  margin-top: 20rpx;
+  font-weight: 400;
+  margin-bottom: 20rpx;
+}
+.introduce .Price .money{
+  font-weight: bold;
+  font-size: 35rpx;
+}
+.gejuanbox{
+  width: 100%;
+  height: 10rpx;
+  background: rgb(241, 241, 241);
+}
+.Choice{
+  width: 100%;
+  height: 50rpx;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}
+.Choice .Specifications{
+  font-size: 20rpx;
+  color: #999;
+  margin-right: 40rpx;
+}
+.Choice  .Size{
+  font-size: 20rpx;
+}
+.Choice image{
+  width: 20rpx;
+  height: 20rpx;
+  float: right;
+  margin: 15rpx 20rpx 0 0;
+
+}
+.pp{
+  width: 100%;
+  overflow: hidden;
+}
+.pp .hteimg{
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.pp .name_box{
+  float: left;
+  height: 80rpx;
+  font-size: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-top: 20rpx;
+}
+.pp .name_box .hte{
+  display: block;
+  width: 100%;
+}
+.pp .name_box .htejs{
+  color: #999;
+  width: 100%;
+  display: block;
+}
+.pp .Costperformance{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.pp .Costperformance .Cost{
+  width: 20%;
+  display: inline-block;
+}
+.pp .Costperformance .Cost text{
+  color: #999;
+  font-size: 25rpx;
+  text-align: center;
+  display: block;
+  margin: 30rpx 0 10rpx 0;
+}
+.pp .Costperformance .Cost .shifenbox{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  border: 1rpx solid rgb(103, 165, 10);
+  position: relative;
+  margin: auto;
+}
+.pp .Costperformance .Cost .shifenbox .boxinnub{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top:-19rpx;
+  margin-left:-19rpx;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40rpx;
+  font-size: 20rpx;
+  color: #fff;
+  background: rgb(103, 165, 10);
+}
+.pp .evaluate_box{
+  width: 95%;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid rgb(209, 205, 205);
+  float: right;
+  padding-bottom: 20rpx;
+  margin-top: 20rpx;
+  
+}
+.pp .evaluate_box .evaluate{
+  font-size: 25rpx;
+  color: #999;
+  float: left;
+  margin-right: 30rpx;
+}
+.pp .evaluate_box .score{
+  font-size: 25rpx;
+  float: left;
+}
+.pp .evaluate_box .score .number{
+  color: red;
+}
+.pp .evaluate_box .allevaluate{
+  font-size: 25rpx;
+  color: #999;
+  float: right;
+}
+.pp .evaluate_box image{
+  float: right;
+  width: 30rpx;
+  height: 30rpx;
+}
+.comment_box{
+  width: 100%;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid rgb(209, 205, 205);
+}
+.comment_box .comment_information{
+  width: 100%;
+  overflow: hidden;
+}
+.comment_box .comment_information image{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  background: #000;
+  float: left;
+  margin-right: 10rpx;
+}
+.comment_box .comment_information text{
+  font-size: 20rpx;
+  float: left;
+  line-height: 50rpx;
+}
+.comment_box .comment_content{
+  width: 100%;
+  font-size: 25rpx;
+  line-height: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+.comment_box .comment_time{
+  font-size: 20rpx;
+  color: #999;
+}
+.IntroductionofGraphicsandTexts{
+  width: 90%;
+  margin: auto;
+  padding-bottom: 105rpx;
+  box-sizing: border-box;
+
+}
+.IntroductionofGraphicsandTexts text{
+  font-size: 20rpx;
+  color: #999;
+  margin-bottom: 50rpx;
+  margin-top: 20rpx;
+  display: block;
+}
+.IntroductionofGraphicsandTexts view{
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-indent:2em;
+  line-height: 35rpx;
+  font-size: 25rpx;
+}
+.bom_box{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.bom_box .scandzx{
+  width: 23%;
+  border-right: 1rpx solid rgb(241, 241, 241); 
+  background: #fff;
+  font-size: 20rpx;
+  color: #999;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+
+}
+.bom_box .scandzx .scandzx_box image{
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+}
+.bom_box .ljdg{
+  flex-grow: 1.5;
+  background: red;
+  color: #fff;
+  text-align:center;
+  line-height: 100rpx;
+}

@@ -1,0 +1,6 @@
+<!--pages/Coupon/Coupon.wxml-->
+<view class='top'>
+  <text catchtap='qiehuan' data-index='0'  class='{{selectindex=="0"&&"bor"}}'>未使用</text>
+  <text catchtap='qiehuan' data-index='1'  class='{{selectindex=="1"&&"bor"}}'>已使用</text>
+  <text catchtap='qiehuan' data-index='2'  class='{{selectindex=="2"&&"bor"}}'>已过期</text>
+</view>

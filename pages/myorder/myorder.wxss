@@ -1,0 +1,17 @@
+/* pages/myorder/myorder.wxss */
+.top{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.top text{
+  text-align: center;
+  line-height: 80rpx;
+  height: 80rpx;
+  display: inline-block;
+  width: 17%
+}
+.top .bor{
+  border-bottom: 2rpx solid red;
+}

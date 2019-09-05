@@ -1,0 +1,8 @@
+<!--pages/myorder/myorder.wxml-->
+<view class='top'>
+  <text class='{{selectindex=="0"&&"bor"}}' catchtap='qiehuan' data-index='0'>全部</text>
+  <text catchtap='qiehuan' data-index='1'  class='{{selectindex=="1"&&"bor"}}'>待付款</text>
+  <text catchtap='qiehuan' data-index='2'  class='{{selectindex=="2"&&"bor"}}'>待发货</text>
+  <text catchtap='qiehuan' data-index='3'  class='{{selectindex=="3"&&"bor"}}'>待收货</text>
+  <text catchtap='qiehuan' data-index='4'  class='{{selectindex=="4"&&"bor"}}'>待评价</text>
+</view>

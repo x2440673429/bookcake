@@ -1,0 +1,9 @@
+<!--pages/AddressManagement/AddressManagement.wxml-->
+<view>
+  <view><text>{{name}}</text><text>{{phone}}</text></view>
+  <view>{{address.sheng}} {{address.shi}} {{address.qu}}</view>
+  <view>{{Doornumber}}</view>
+</view>
+<view class='new' catchtap='AddedAddress'>
+  新增地址
+</view>

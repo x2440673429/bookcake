@@ -1,0 +1,42 @@
+/* pages/list/list.wxss */
+.proudet{
+  width: 48%;
+  border: 1rpx solid rgb(240, 240, 240);
+  margin-left: 10rpx;
+  margin-bottom: 20rpx;
+  float: left;
+}
+.proudet image{
+  width: 100%;
+}
+.proudet .proudet_box{
+  width: 100%;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.proudet .proudet_box .name{
+  font-size: 25rpx;
+}
+.proudet .proudet_box .english{
+  font-size: 20rpx;
+  color: #999;
+}
+.proudet .proudet_box .Price{
+  color: red;
+  font-size: 20rpx;
+  margin-top: 5rpx;
+}
+.proudet .proudet_box .Price .OriginalPrice{
+  color: #999;
+  text-decoration:line-through;
+  font-size: 20rpx;
+  margin-left: 10rpx;
+}
+.proudet .proudet_box .introduce{
+  font-size: 20rpx;
+  color: #999;
+  margin: 5rpx 0;
+}
+.proudet .proudet_box .introduce .time{
+  float: right;
+}

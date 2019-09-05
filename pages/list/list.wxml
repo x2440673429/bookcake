@@ -1,0 +1,28 @@
+<!--pages/list/list.wxml-->
+<view class='proudet'>
+  <image src='https://yy.kpzs.com/upload/image/1908141206160159.png'></image>
+  <view class='proudet_box'>
+    <view class='name'>网红火烈鸟蛋糕</view>
+    <view class='english'>LOOKCAKE创意蛋糕</view>
+    <view class='Price'>￥ 169.2<text class='OriginalPrice'>原价 188</text></view>
+    <view class='introduce'>新品上架<text class='time'>最快3小时送达</text></view>
+  </view>
+</view>
+<view class='proudet'>
+  <image src='https://yy.kpzs.com/upload/image/1908141206160159.png'></image>
+  <view class='proudet_box'>
+    <view class='name'>网红火烈鸟蛋糕</view>
+    <view class='english'>LOOKCAKE创意蛋糕</view>
+    <view class='Price'>￥ 169.2<text class='OriginalPrice'>原价 188</text></view>
+    <view class='introduce'>新品上架<text class='time'>最快3小时送达</text></view>
+  </view>
+</view>
+<view class='proudet'>
+  <image src='https://yy.kpzs.com/upload/image/1908141206160159.png'></image>
+  <view class='proudet_box'>
+    <view class='name'>网红火烈鸟蛋糕</view>
+    <view class='english'>LOOKCAKE创意蛋糕</view>
+    <view class='Price'>￥ 169.2<text class='OriginalPrice'>原价 188</text></view>
+    <view class='introduce'>新品上架<text class='time'>最快3小时送达</text></view>
+  </view>
+</view>

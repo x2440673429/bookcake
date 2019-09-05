@@ -1,0 +1,118 @@
+/* pages/classification/classification.wxss */
+@import '../templace/top/top.wxss';
+page{
+  height: 100%;
+}
+/* .top{
+  width: 100%;
+  height: 70rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 20rpx;
+}
+ .top .currentlocation{
+ width: 150rpx;
+ height: 61rpx;
+ background: rgb(236, 236, 236);
+ display: inline-block;
+ margin-right: 20rpx;
+ text-align: center;
+ line-height: 61rpx;
+ color: #999999;
+ font-size: 25rpx;
+ border-radius: 5rpx;
+}
+
+ .top .search{
+
+  width: 100%;
+  height: 60rpx;
+  border: 1rpx solid rgb(190, 190, 190);
+  display: flex;
+  border-radius: 5rpx;
+  box-sizing: border-box;
+}
+ .top icon{
+  display: inline-block;
+  line-height:83rpx;
+  margin: 0 10rpx;
+}
+ .top input{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 60rpx;
+  font-size: 25rpx;
+  color: #666;
+} */
+.product{
+  width: 100%;
+  border-top: 1rpx solid rgb(231, 230, 230);
+ position:absolute;
+  top:100rpx;
+  left:0;
+  bottom:0;
+
+}
+.product .left{
+  width: 150rpx;
+  float: left;
+}
+.product .left text{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 30rpx 0;
+}
+.product .left .xuanzhong{
+  border-left: 5rpx solid red;
+  box-sizing: border-box;
+}
+.product .right{
+  position: absolute;
+  left: 150rpx;
+  right: 0;
+  top:0;
+  bottom:0;
+  border-left: 1rpx solid rgb(231, 230, 230);
+  box-sizing: border-box;
+}
+.product .right .right_top{
+  display: block;
+  text-align: center;
+  margin: 30rpx 0;
+  font-size: 18rpx;
+  color: #999;
+}
+.product .right .product-only{
+  width: 50%; 
+  float: left;
+  margin-bottom: 40rpx;
+}
+.product .right .product-only image{
+  display: block;
+  width: 85%;
+  height:220rpx;
+  margin: auto;
+}
+.product .right .product-only text{
+  display: block;
+  text-align: center;
+  font-size: 25rpx;
+  margin-top: 10rpx;
+}
+.product .right .product-only .name{
+  overflow:hidden; 
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+}
+.product .right .product-only .money{
+  color: red;
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}

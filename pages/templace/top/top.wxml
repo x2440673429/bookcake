@@ -1,0 +1,13 @@
+<!--pages/templace/top/top.wxml-->
+<template name='tem1page'>
+  <view class='top'>
+      <view class='currentlocation'>
+        <text>{{city}}</text>
+      </view> 
+      <view class='search'>
+        <icon type='search' size='12'></icon>
+        <input value='' placeholder='输入搜索' focus="{{focus}}" catchtap='search'> </input>
+      </view>
+      <button style='display:{{display}}' >搜索</button>
+  </view>
+</template>

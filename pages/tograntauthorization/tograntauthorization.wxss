@@ -1,0 +1,20 @@
+/* pages/tograntauthorization/tograntauthorization.wxss */
+image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 100rpx;
+}
+view{
+  text-align: center;
+  margin: 50rpx 0 70rpx 0;
+  font-size: 35rpx;
+}
+button{
+  width: 250rpx;
+  background: rgb(255, 0, 0);
+  font-size: 35rpx;
+  color: #fff;
+}
